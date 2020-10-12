@@ -257,11 +257,11 @@ window.addEventListener('load',()=> {preloader.endLoading()})</script><div class
       el: '#vcomment',
       appId: 'NdoyO8ehIInv2pXUmnnfV2f9-gzGzoHsz',
       appKey: 'RnUyy4cRfcDte8hn9H6kHfGw',
-      placeholder: 'Please leave your footprints',
+      placeholder: '请留下您的足迹',
       avatar: 'monsterid',
       meta: 'nick,mail,link'.split(','),
       pageSize: '10',
-      lang: 'en',
+      lang: 'zh-CN',
       recordIP: false,
       serverURLs: '',
       emojiCDN: '',
@@ -270,8 +270,8 @@ window.addEventListener('load',()=> {preloader.endLoading()})</script><div class
       path: window.location.pathname,
     }
 
-    if (true) { 
-      initData.requiredFields= ('nick,mail'.split(','))
+    if (false) { 
+      initData.requiredFields= (''.split(','))
     }
 
     const valine = new Valine(initData)
